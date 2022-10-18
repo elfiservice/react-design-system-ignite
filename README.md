@@ -32,5 +32,8 @@ import './styles/global.css';
 
 ```
 
-
+## Storybook
+- run `npx sb init --builder @storybook/builder-vite --use-npm`
+  - using `--builder @storybook/builder-vite` to set the storybook using the vite comipler instead of babel 
+  - and `use-npm` because i'm using the `npm`
   
